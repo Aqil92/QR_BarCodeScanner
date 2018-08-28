@@ -1,4 +1,4 @@
-package com.sevenrocks.qrandbarcodescanner.CodeReader;
+package com.sevenrocks.aqilbarcode.CodeReader;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,8 @@ import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.ViewGroup;
 
-import com.sevenrocks.qrandbarcodescanner.R;
+import com.sevenrocks.aqilbarcode.R;
+
 
 /**
  * Created by ravi on 04/05/17.

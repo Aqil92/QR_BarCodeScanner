@@ -1,4 +1,4 @@
-package com.sevenrocks.qrandbarcodescanner.CodeReader;
+package com.sevenrocks.aqilbarcode.CodeReader;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -39,10 +39,10 @@ import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.camera.CameraSource;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.camera.CameraSourcePreview;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.camera.GraphicOverlay;
-import com.sevenrocks.qrandbarcodescanner.R;
+import com.sevenrocks.aqilbarcode.CodeReader.camera.CameraSource;
+import com.sevenrocks.aqilbarcode.CodeReader.camera.CameraSourcePreview;
+import com.sevenrocks.aqilbarcode.CodeReader.camera.GraphicOverlay;
+import com.sevenrocks.aqilbarcode.R;
 
 import java.io.IOException;
 import java.util.List;

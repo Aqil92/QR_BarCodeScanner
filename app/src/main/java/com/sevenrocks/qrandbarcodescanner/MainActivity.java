@@ -7,7 +7,7 @@ import android.util.SparseArray;
 import android.widget.Toast;
 
 import com.google.android.gms.vision.barcode.Barcode;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.BarcodeReader;
+import com.sevenrocks.aqilbarcode.CodeReader.BarcodeReader;
 
 import java.util.List;
 

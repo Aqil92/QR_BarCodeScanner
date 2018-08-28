@@ -1,4 +1,4 @@
-package com.sevenrocks.qrandbarcodescanner.CodeReader;/*
+package com.sevenrocks.aqilbarcode.CodeReader;/*
  * Copyright (C) The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,8 +21,7 @@ import android.util.SparseArray;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.BarcodeGraphic;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.camera.GraphicOverlay;
+import com.sevenrocks.aqilbarcode.CodeReader.camera.GraphicOverlay;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.sevenrocks.qrandbarcodescanner.CodeReader;/*
+package com.sevenrocks.aqilbarcode.CodeReader;/*
  * Copyright (C) The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +18,9 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
+
 import com.google.android.gms.vision.barcode.Barcode;
-import com.sevenrocks.qrandbarcodescanner.CodeReader.camera.GraphicOverlay;
+import com.sevenrocks.aqilbarcode.CodeReader.camera.GraphicOverlay;
 
 /**
  * Graphic instance for rendering barcode position, size, and ID within an associated graphic
