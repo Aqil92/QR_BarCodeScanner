@@ -1,25 +1,19 @@
+# QR_BarCodeScanner
 
 Please Put Star if you like it.
+Add it in your root build.gradle at the end of repositories:
 
-# QR_BarCodeScanner
-Step 1.  Add it in your root build.gradle at the end of repositories:
-
-allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  ------------------------------------------------------------------------------------------------------------------------------------------
-  
-Step 2.  Add the dependency
+Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Aqil92:QR_BarCodeScanner:-SNAPSHOT'
+	        implementation 'com.github.Aqil92:QR_BarCodeScanner:1.02'
 	}
-  
-  ------------------------------------------------------------------------------------------------------------------------------------------
   
   
   Steps 3. Modify Your activity_main.xml to bellow activity_main.xml\
