@@ -9,14 +9,14 @@
     <!-- Barcode Reader fragment -->
     <fragment
         android:id="@+id/barcode_fragment"
-        android:name="com.sevenrocks.qrandbarcodescanner.CodeReader.BarcodeReader"
+        android:name="com.sevenrocks.aqilbarcode.CodeReader.BarcodeReader"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:auto_focus="true"
         app:use_flash="false" />
 
     <!-- Scanner overlay animation -->
-    <com.sevenrocks.qrandbarcodescanner.CodeReader.ScannerOverlay
+    <com.sevenrocks.aqilbarcode.CodeReader.ScannerOverlay
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#44000000"

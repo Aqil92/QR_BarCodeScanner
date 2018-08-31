@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements BarcodeReader.Bar
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
+                barcodeReader.onDetach();
                 Toast.makeText(getApplicationContext(), "Barcode: " + barcode.displayValue, Toast.LENGTH_SHORT).show();
             }
         });

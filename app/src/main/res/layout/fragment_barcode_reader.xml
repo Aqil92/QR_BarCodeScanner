@@ -7,17 +7,17 @@
     android:background="#00ff00"
     android:orientation="vertical">
 
-    <com.sevenrocks.qrandbarcodescanner.CodeReader.camera.CameraSourcePreview
+    <com.sevenrocks.aqilbarcode.CodeReader.camera.CameraSourcePreview
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.sevenrocks.qrandbarcodescanner.CodeReader.camera.GraphicOverlay
+        <com.sevenrocks.aqilbarcode.CodeReader.camera.GraphicOverlay
             android:id="@+id/graphicOverlay"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
 
-    </com.sevenrocks.qrandbarcodescanner.CodeReader.camera.CameraSourcePreview>
+    </com.sevenrocks.aqilbarcode.CodeReader.camera.CameraSourcePreview>
 
 </LinearLayout>
